@@ -1,0 +1,595 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Int32[] DelaunatorSharp.Delaunator::get_Triangles()
+extern void Delaunator_get_Triangles_m4CA754173165A8C8C4760D41B83C74B891B9A0F2 (void);
+// 0x00000002 System.Void DelaunatorSharp.Delaunator::set_Triangles(System.Int32[])
+extern void Delaunator_set_Triangles_m33C3DCC42040926C1EE0EE5B251D3B4CADF6C829 (void);
+// 0x00000003 System.Int32[] DelaunatorSharp.Delaunator::get_Halfedges()
+extern void Delaunator_get_Halfedges_m6289A99F3A21314B595991433709D7A26A625EBA (void);
+// 0x00000004 System.Void DelaunatorSharp.Delaunator::set_Halfedges(System.Int32[])
+extern void Delaunator_set_Halfedges_mDE49756AF31AF97639F5BBCAF5D41D0ABF21C106 (void);
+// 0x00000005 DelaunatorSharp.IPoint[] DelaunatorSharp.Delaunator::get_Points()
+extern void Delaunator_get_Points_mD95ECBBE610FAAE042FCFA17F513052D02FAAA6F (void);
+// 0x00000006 System.Void DelaunatorSharp.Delaunator::set_Points(DelaunatorSharp.IPoint[])
+extern void Delaunator_set_Points_m89C12BFC161F2B510D558CAA8EF7C855F9F51BEA (void);
+// 0x00000007 System.Void DelaunatorSharp.Delaunator::.ctor(DelaunatorSharp.IPoint[])
+extern void Delaunator__ctor_mAB3F9C0ED795BC13B988D648B2519687DBE149A9 (void);
+// 0x00000008 System.Int32 DelaunatorSharp.Delaunator::Legalize(System.Int32)
+extern void Delaunator_Legalize_m5A2460E994D257F20B4E77569B29E0F6972C6D33 (void);
+// 0x00000009 System.Boolean DelaunatorSharp.Delaunator::InCircle(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+extern void Delaunator_InCircle_m5BB3CB188074C17C2D3F016CA181399A717CD20D (void);
+// 0x0000000A System.Int32 DelaunatorSharp.Delaunator::AddTriangle(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
+extern void Delaunator_AddTriangle_m436BD4CBB817A01CB1C64FB97DC780339220544C (void);
+// 0x0000000B System.Void DelaunatorSharp.Delaunator::Link(System.Int32,System.Int32)
+extern void Delaunator_Link_mBD7D62488EC64418BCFD203D6ACDBF7FCE3DBC28 (void);
+// 0x0000000C System.Int32 DelaunatorSharp.Delaunator::HashKey(System.Double,System.Double)
+extern void Delaunator_HashKey_mEBDDF0299D5945C5148C4F0FD8E14D1ABE1A0F3E (void);
+// 0x0000000D System.Double DelaunatorSharp.Delaunator::PseudoAngle(System.Double,System.Double)
+extern void Delaunator_PseudoAngle_m83C7CA948258D72894335DAD245342E6F2D23BC5 (void);
+// 0x0000000E System.Void DelaunatorSharp.Delaunator::Quicksort(System.Int32[],System.Double[],System.Int32,System.Int32)
+extern void Delaunator_Quicksort_m04CB718C7415BCCC6694F8F4F3BD61DAA1A790A6 (void);
+// 0x0000000F System.Void DelaunatorSharp.Delaunator::Swap(System.Int32[],System.Int32,System.Int32)
+extern void Delaunator_Swap_m285DB21143FDA59B1DFA831EB941479ABE678345 (void);
+// 0x00000010 System.Boolean DelaunatorSharp.Delaunator::Orient(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+extern void Delaunator_Orient_mA30C286DC300722E3BE6BB55D2752DDE9ABB862B (void);
+// 0x00000011 System.Double DelaunatorSharp.Delaunator::Circumradius(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+extern void Delaunator_Circumradius_m9FF9AC4625A66D6AB81447555774373968126E94 (void);
+// 0x00000012 DelaunatorSharp.Point DelaunatorSharp.Delaunator::Circumcenter(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+extern void Delaunator_Circumcenter_mCDFA9284F06884B164AEE8A1C0CD9A5DF63FA63B (void);
+// 0x00000013 System.Double DelaunatorSharp.Delaunator::Dist(System.Double,System.Double,System.Double,System.Double)
+extern void Delaunator_Dist_mC590D12EC7CC526440E482F92CB4FBBD48B4D162 (void);
+// 0x00000014 System.Collections.Generic.IEnumerable`1<DelaunatorSharp.ITriangle> DelaunatorSharp.Delaunator::GetTriangles()
+extern void Delaunator_GetTriangles_mB1343816D83871105291B4E9639CE90CBB598346 (void);
+// 0x00000015 System.Collections.Generic.IEnumerable`1<DelaunatorSharp.IEdge> DelaunatorSharp.Delaunator::GetEdges()
+extern void Delaunator_GetEdges_m04C12ADC8F163552E7FAC122417631E04BDCCFD0 (void);
+// 0x00000016 System.Collections.Generic.IEnumerable`1<DelaunatorSharp.IEdge> DelaunatorSharp.Delaunator::GetVoronoiEdges()
+extern void Delaunator_GetVoronoiEdges_mFE2E9333BD3337BDFA22FA49D5595DA186C8DDA2 (void);
+// 0x00000017 System.Collections.Generic.IEnumerable`1<DelaunatorSharp.IVoronoiCell> DelaunatorSharp.Delaunator::GetVoronoiCells()
+extern void Delaunator_GetVoronoiCells_m6A56ED874E2FB08FA4D962E549BB4D8B61D88191 (void);
+// 0x00000018 System.Collections.Generic.IEnumerable`1<DelaunatorSharp.IEdge> DelaunatorSharp.Delaunator::GetHullEdges()
+extern void Delaunator_GetHullEdges_mAD9A209BA3F2D2495E180257C1CDE73870D2D06A (void);
+// 0x00000019 DelaunatorSharp.IPoint[] DelaunatorSharp.Delaunator::GetHullPoints()
+extern void Delaunator_GetHullPoints_m019039CCF95D097CF0A1042CC7A9635B1D63157A (void);
+// 0x0000001A DelaunatorSharp.IPoint[] DelaunatorSharp.Delaunator::GetTrianglePoints(System.Int32)
+extern void Delaunator_GetTrianglePoints_mF5F8BB8870C15495CE015C76D24120661B89747C (void);
+// 0x0000001B DelaunatorSharp.IPoint[] DelaunatorSharp.Delaunator::GetRellaxedPoints()
+extern void Delaunator_GetRellaxedPoints_m4A50778E513DA7A423CC37650261DFB280857292 (void);
+// 0x0000001C System.Collections.Generic.IEnumerable`1<DelaunatorSharp.IEdge> DelaunatorSharp.Delaunator::GetEdgesOfTriangle(System.Int32)
+extern void Delaunator_GetEdgesOfTriangle_m8B0BFB40FEBE8452A7BD87064CDA52763A6B4777 (void);
+// 0x0000001D System.Collections.Generic.IEnumerable`1<DelaunatorSharp.IEdge> DelaunatorSharp.Delaunator::CreateHull(System.Collections.Generic.IEnumerable`1<DelaunatorSharp.IPoint>)
+extern void Delaunator_CreateHull_m62E2EA62C7EA4576911346A3B414F2BBFFB5FF66 (void);
+// 0x0000001E DelaunatorSharp.IPoint DelaunatorSharp.Delaunator::GetTriangleCenter(System.Int32)
+extern void Delaunator_GetTriangleCenter_mE650C8F8BB6B19D879AB926B2459406240257944 (void);
+// 0x0000001F DelaunatorSharp.IPoint DelaunatorSharp.Delaunator::GetCircumcenter(DelaunatorSharp.IPoint,DelaunatorSharp.IPoint,DelaunatorSharp.IPoint)
+extern void Delaunator_GetCircumcenter_mD62B3A4DDA63CA309F2BA43158B13C796C7A17ED (void);
+// 0x00000020 DelaunatorSharp.IPoint DelaunatorSharp.Delaunator::GetCentroid(DelaunatorSharp.IPoint[])
+extern void Delaunator_GetCentroid_mD0A338298FE18EE564C240AF2436C5B6E2742380 (void);
+// 0x00000021 System.Void DelaunatorSharp.Delaunator::ForEachTriangle(System.Action`1<DelaunatorSharp.ITriangle>)
+extern void Delaunator_ForEachTriangle_m311CDF6F5C750309FAA4713D1F65CABCD596A540 (void);
+// 0x00000022 System.Void DelaunatorSharp.Delaunator::ForEachTriangleEdge(System.Action`1<DelaunatorSharp.IEdge>)
+extern void Delaunator_ForEachTriangleEdge_mE8863151D38036DA8474D1593357006E332CADD7 (void);
+// 0x00000023 System.Void DelaunatorSharp.Delaunator::ForEachVoronoiEdge(System.Action`1<DelaunatorSharp.IEdge>)
+extern void Delaunator_ForEachVoronoiEdge_m102973582583BD874B7ADE7CAD54BAF0EA77E34E (void);
+// 0x00000024 System.Void DelaunatorSharp.Delaunator::ForEachVoronoiCell(System.Action`1<DelaunatorSharp.IVoronoiCell>)
+extern void Delaunator_ForEachVoronoiCell_m7BE874A79CEE4715157826BC34CF993CA2648810 (void);
+// 0x00000025 System.Collections.Generic.IEnumerable`1<System.Int32> DelaunatorSharp.Delaunator::EdgesAroundPoint(System.Int32)
+extern void Delaunator_EdgesAroundPoint_mE71DEEA18CAE469D5A5F05186A5D217C281AA6EB (void);
+// 0x00000026 System.Collections.Generic.IEnumerable`1<System.Int32> DelaunatorSharp.Delaunator::PointsOfTriangle(System.Int32)
+extern void Delaunator_PointsOfTriangle_mEE9B10D4DB9178544FDF13312EDA8951E97359D2 (void);
+// 0x00000027 System.Collections.Generic.IEnumerable`1<System.Int32> DelaunatorSharp.Delaunator::TrianglesAdjacentToTriangle(System.Int32)
+extern void Delaunator_TrianglesAdjacentToTriangle_m9C9E84CC9CAE66BE4EA8FC8BB8F34820DB03CDC5 (void);
+// 0x00000028 System.Int32 DelaunatorSharp.Delaunator::NextHalfedge(System.Int32)
+extern void Delaunator_NextHalfedge_mBD37F1877DD03E0269C88B9C42EA1102AE781EF6 (void);
+// 0x00000029 System.Int32 DelaunatorSharp.Delaunator::PreviousHalfedge(System.Int32)
+extern void Delaunator_PreviousHalfedge_mE3B868FB30E838F69018C10640B1251BC7071CF2 (void);
+// 0x0000002A System.Int32[] DelaunatorSharp.Delaunator::EdgesOfTriangle(System.Int32)
+extern void Delaunator_EdgesOfTriangle_m900BD0842F9FCACD8A3E88ED522B6B8F3D0F0C30 (void);
+// 0x0000002B System.Int32 DelaunatorSharp.Delaunator::TriangleOfEdge(System.Int32)
+extern void Delaunator_TriangleOfEdge_mD3E40FEFF6E015F34BD268C3F643BFAFDFB32361 (void);
+// 0x0000002C System.Int32 DelaunatorSharp.Delaunator::<GetVoronoiCells>b__42_1(System.Int32)
+extern void Delaunator_U3CGetVoronoiCellsU3Eb__42_1_m3F7551B04C2256D3CCE8FEB5F0A44E22805C3963 (void);
+// 0x0000002D DelaunatorSharp.IPoint DelaunatorSharp.Delaunator::<GetVoronoiCells>b__42_2(System.Int32)
+extern void Delaunator_U3CGetVoronoiCellsU3Eb__42_2_mCFD9652332AAEACC91B36FCEB16732007ED40C9E (void);
+// 0x0000002E DelaunatorSharp.IPoint DelaunatorSharp.Delaunator::<GetHullPoints>b__44_0(System.Int32)
+extern void Delaunator_U3CGetHullPointsU3Eb__44_0_mF1EEEFDDA7087E92435D95DD798CF3A2B2D0BDC3 (void);
+// 0x0000002F DelaunatorSharp.IPoint DelaunatorSharp.Delaunator::<GetTrianglePoints>b__45_0(System.Int32)
+extern void Delaunator_U3CGetTrianglePointsU3Eb__45_0_mA79EA1054BD54202B3F6A599B541B7EC354ACC98 (void);
+// 0x00000030 DelaunatorSharp.IPoint DelaunatorSharp.Delaunator::<GetRellaxedPoints>b__46_0(DelaunatorSharp.IVoronoiCell)
+extern void Delaunator_U3CGetRellaxedPointsU3Eb__46_0_m283676167C6207FC2C0108C4873750E7B95CD6C5 (void);
+// 0x00000031 DelaunatorSharp.IPoint DelaunatorSharp.Delaunator::<GetEdgesOfTriangle>b__47_0(System.Int32)
+extern void Delaunator_U3CGetEdgesOfTriangleU3Eb__47_0_m41860034D5BC90CF847A063E8F31001BEE21B1E5 (void);
+// 0x00000032 System.Int32 DelaunatorSharp.Delaunator::<PointsOfTriangle>b__57_0(System.Int32)
+extern void Delaunator_U3CPointsOfTriangleU3Eb__57_0_m737F162FF74FA4EBF240B085469FBDE94FF54FC1 (void);
+// 0x00000033 System.Void DelaunatorSharp.Delaunator/<GetTriangles>d__39::.ctor(System.Int32)
+extern void U3CGetTrianglesU3Ed__39__ctor_mBF4147217F80D41F18ED66A93D9F14BBFBCE3A4B (void);
+// 0x00000034 System.Void DelaunatorSharp.Delaunator/<GetTriangles>d__39::System.IDisposable.Dispose()
+extern void U3CGetTrianglesU3Ed__39_System_IDisposable_Dispose_m27C4D6CF2BD5273BACF123E56BF5204705C73ED6 (void);
+// 0x00000035 System.Boolean DelaunatorSharp.Delaunator/<GetTriangles>d__39::MoveNext()
+extern void U3CGetTrianglesU3Ed__39_MoveNext_m71D6E25E7EED4C87889120308B0AA7FCFE0CD1F5 (void);
+// 0x00000036 DelaunatorSharp.ITriangle DelaunatorSharp.Delaunator/<GetTriangles>d__39::System.Collections.Generic.IEnumerator<DelaunatorSharp.ITriangle>.get_Current()
+extern void U3CGetTrianglesU3Ed__39_System_Collections_Generic_IEnumeratorU3CDelaunatorSharp_ITriangleU3E_get_Current_mCED7710354CDCBA0993F93CC7A524A0F3B741A9C (void);
+// 0x00000037 System.Void DelaunatorSharp.Delaunator/<GetTriangles>d__39::System.Collections.IEnumerator.Reset()
+extern void U3CGetTrianglesU3Ed__39_System_Collections_IEnumerator_Reset_m8017B79BC26E6239774F53BAE5138237C020D288 (void);
+// 0x00000038 System.Object DelaunatorSharp.Delaunator/<GetTriangles>d__39::System.Collections.IEnumerator.get_Current()
+extern void U3CGetTrianglesU3Ed__39_System_Collections_IEnumerator_get_Current_mCFE1A0FDA3944A3351B13DA6B13964E2C799F09D (void);
+// 0x00000039 System.Collections.Generic.IEnumerator`1<DelaunatorSharp.ITriangle> DelaunatorSharp.Delaunator/<GetTriangles>d__39::System.Collections.Generic.IEnumerable<DelaunatorSharp.ITriangle>.GetEnumerator()
+extern void U3CGetTrianglesU3Ed__39_System_Collections_Generic_IEnumerableU3CDelaunatorSharp_ITriangleU3E_GetEnumerator_m31338383DF5D2247DA5CBD80EB22AD7C703BA105 (void);
+// 0x0000003A System.Collections.IEnumerator DelaunatorSharp.Delaunator/<GetTriangles>d__39::System.Collections.IEnumerable.GetEnumerator()
+extern void U3CGetTrianglesU3Ed__39_System_Collections_IEnumerable_GetEnumerator_m35F529601EE1347DF8A0EE97E90A28257215C133 (void);
+// 0x0000003B System.Void DelaunatorSharp.Delaunator/<GetEdges>d__40::.ctor(System.Int32)
+extern void U3CGetEdgesU3Ed__40__ctor_mE7104A9B0B1DBBE6B5FEBDA4A60B384EE16A9DB7 (void);
+// 0x0000003C System.Void DelaunatorSharp.Delaunator/<GetEdges>d__40::System.IDisposable.Dispose()
+extern void U3CGetEdgesU3Ed__40_System_IDisposable_Dispose_m07CCAD133CE7B72747E6EF466258347D17785B20 (void);
+// 0x0000003D System.Boolean DelaunatorSharp.Delaunator/<GetEdges>d__40::MoveNext()
+extern void U3CGetEdgesU3Ed__40_MoveNext_m0E9C8FC837D770DC62B7E2646ECF53F24FF05351 (void);
+// 0x0000003E DelaunatorSharp.IEdge DelaunatorSharp.Delaunator/<GetEdges>d__40::System.Collections.Generic.IEnumerator<DelaunatorSharp.IEdge>.get_Current()
+extern void U3CGetEdgesU3Ed__40_System_Collections_Generic_IEnumeratorU3CDelaunatorSharp_IEdgeU3E_get_Current_m280FFD2783B89D6691EBE4333F71B59355D9AD21 (void);
+// 0x0000003F System.Void DelaunatorSharp.Delaunator/<GetEdges>d__40::System.Collections.IEnumerator.Reset()
+extern void U3CGetEdgesU3Ed__40_System_Collections_IEnumerator_Reset_mBAB8A6EFDFA61F197C9BBE0F185348CDE069B227 (void);
+// 0x00000040 System.Object DelaunatorSharp.Delaunator/<GetEdges>d__40::System.Collections.IEnumerator.get_Current()
+extern void U3CGetEdgesU3Ed__40_System_Collections_IEnumerator_get_Current_mF2E059BD66CB90FA2E9C89C217708C525853FC37 (void);
+// 0x00000041 System.Collections.Generic.IEnumerator`1<DelaunatorSharp.IEdge> DelaunatorSharp.Delaunator/<GetEdges>d__40::System.Collections.Generic.IEnumerable<DelaunatorSharp.IEdge>.GetEnumerator()
+extern void U3CGetEdgesU3Ed__40_System_Collections_Generic_IEnumerableU3CDelaunatorSharp_IEdgeU3E_GetEnumerator_mEA4E86DD324D5ACE3A8C17098568DAF78A2415EA (void);
+// 0x00000042 System.Collections.IEnumerator DelaunatorSharp.Delaunator/<GetEdges>d__40::System.Collections.IEnumerable.GetEnumerator()
+extern void U3CGetEdgesU3Ed__40_System_Collections_IEnumerable_GetEnumerator_mB907D9251B48AD91934341EC6C116F9D076EDA74 (void);
+// 0x00000043 System.Void DelaunatorSharp.Delaunator/<GetVoronoiEdges>d__41::.ctor(System.Int32)
+extern void U3CGetVoronoiEdgesU3Ed__41__ctor_m7D3BAFDE4DA94DCA512F5E70D73A5A6FEE7CCFB9 (void);
+// 0x00000044 System.Void DelaunatorSharp.Delaunator/<GetVoronoiEdges>d__41::System.IDisposable.Dispose()
+extern void U3CGetVoronoiEdgesU3Ed__41_System_IDisposable_Dispose_m18C942CAC351CE2D0BDF16803DC60374C60E682C (void);
+// 0x00000045 System.Boolean DelaunatorSharp.Delaunator/<GetVoronoiEdges>d__41::MoveNext()
+extern void U3CGetVoronoiEdgesU3Ed__41_MoveNext_mFD69E4B1BDFE12A2B595F2144B41A8CB062A6CAD (void);
+// 0x00000046 DelaunatorSharp.IEdge DelaunatorSharp.Delaunator/<GetVoronoiEdges>d__41::System.Collections.Generic.IEnumerator<DelaunatorSharp.IEdge>.get_Current()
+extern void U3CGetVoronoiEdgesU3Ed__41_System_Collections_Generic_IEnumeratorU3CDelaunatorSharp_IEdgeU3E_get_Current_m1A2417E26E16E4BF2056AB2DD0BC8167992B0D7F (void);
+// 0x00000047 System.Void DelaunatorSharp.Delaunator/<GetVoronoiEdges>d__41::System.Collections.IEnumerator.Reset()
+extern void U3CGetVoronoiEdgesU3Ed__41_System_Collections_IEnumerator_Reset_m542E87FCFEF7E1FECF3FF9EAC539AD52ED92E868 (void);
+// 0x00000048 System.Object DelaunatorSharp.Delaunator/<GetVoronoiEdges>d__41::System.Collections.IEnumerator.get_Current()
+extern void U3CGetVoronoiEdgesU3Ed__41_System_Collections_IEnumerator_get_Current_m748F8FAEBF3FAB3719E075FE30E8C461EDE5FEE4 (void);
+// 0x00000049 System.Collections.Generic.IEnumerator`1<DelaunatorSharp.IEdge> DelaunatorSharp.Delaunator/<GetVoronoiEdges>d__41::System.Collections.Generic.IEnumerable<DelaunatorSharp.IEdge>.GetEnumerator()
+extern void U3CGetVoronoiEdgesU3Ed__41_System_Collections_Generic_IEnumerableU3CDelaunatorSharp_IEdgeU3E_GetEnumerator_m7EA2DA6958013408BCD7BC9768AE78204063FEDD (void);
+// 0x0000004A System.Collections.IEnumerator DelaunatorSharp.Delaunator/<GetVoronoiEdges>d__41::System.Collections.IEnumerable.GetEnumerator()
+extern void U3CGetVoronoiEdgesU3Ed__41_System_Collections_IEnumerable_GetEnumerator_mF3FF1CA6AFEED5EA8F89683CB34D187A77A45C58 (void);
+// 0x0000004B System.Void DelaunatorSharp.Delaunator/<>c__DisplayClass42_0::.ctor()
+extern void U3CU3Ec__DisplayClass42_0__ctor_mC341F25F99F81A82F97A4287E0B43CBBFAE4A65A (void);
+// 0x0000004C System.Boolean DelaunatorSharp.Delaunator/<>c__DisplayClass42_0::<GetVoronoiCells>b__0(System.Int32)
+extern void U3CU3Ec__DisplayClass42_0_U3CGetVoronoiCellsU3Eb__0_mAA3A7A1B6939A5DF40DBAE08AFDFAA677437295F (void);
+// 0x0000004D System.Void DelaunatorSharp.Delaunator/<GetVoronoiCells>d__42::.ctor(System.Int32)
+extern void U3CGetVoronoiCellsU3Ed__42__ctor_m60EF37CF664C05C6DF5E8B7E69E5485F1B21AED7 (void);
+// 0x0000004E System.Void DelaunatorSharp.Delaunator/<GetVoronoiCells>d__42::System.IDisposable.Dispose()
+extern void U3CGetVoronoiCellsU3Ed__42_System_IDisposable_Dispose_m302BB4E33769E4B0E2792284A2978A40B07694B5 (void);
+// 0x0000004F System.Boolean DelaunatorSharp.Delaunator/<GetVoronoiCells>d__42::MoveNext()
+extern void U3CGetVoronoiCellsU3Ed__42_MoveNext_m086AAF161EEE85FA6B1C30809C2C447CCB6694E7 (void);
+// 0x00000050 DelaunatorSharp.IVoronoiCell DelaunatorSharp.Delaunator/<GetVoronoiCells>d__42::System.Collections.Generic.IEnumerator<DelaunatorSharp.IVoronoiCell>.get_Current()
+extern void U3CGetVoronoiCellsU3Ed__42_System_Collections_Generic_IEnumeratorU3CDelaunatorSharp_IVoronoiCellU3E_get_Current_mFF0989ECD4491DE5929EAD64C2851A5CCC21A717 (void);
+// 0x00000051 System.Void DelaunatorSharp.Delaunator/<GetVoronoiCells>d__42::System.Collections.IEnumerator.Reset()
+extern void U3CGetVoronoiCellsU3Ed__42_System_Collections_IEnumerator_Reset_m5109CD3A675A2EE9428D527A7BF492D1D4E15A3B (void);
+// 0x00000052 System.Object DelaunatorSharp.Delaunator/<GetVoronoiCells>d__42::System.Collections.IEnumerator.get_Current()
+extern void U3CGetVoronoiCellsU3Ed__42_System_Collections_IEnumerator_get_Current_m6E238CEC8055D616B0545A9CCCD5F112CACFF532 (void);
+// 0x00000053 System.Collections.Generic.IEnumerator`1<DelaunatorSharp.IVoronoiCell> DelaunatorSharp.Delaunator/<GetVoronoiCells>d__42::System.Collections.Generic.IEnumerable<DelaunatorSharp.IVoronoiCell>.GetEnumerator()
+extern void U3CGetVoronoiCellsU3Ed__42_System_Collections_Generic_IEnumerableU3CDelaunatorSharp_IVoronoiCellU3E_GetEnumerator_mB673F163AE6A1557D1A38B1C850E4E3684113D04 (void);
+// 0x00000054 System.Collections.IEnumerator DelaunatorSharp.Delaunator/<GetVoronoiCells>d__42::System.Collections.IEnumerable.GetEnumerator()
+extern void U3CGetVoronoiCellsU3Ed__42_System_Collections_IEnumerable_GetEnumerator_m3B6DC7C3BC20D23FACF1F5377A790713BC40ED2D (void);
+// 0x00000055 System.Void DelaunatorSharp.Delaunator/<>c::.cctor()
+extern void U3CU3Ec__cctor_m1F697C215EA4BA26721B1D2EAF53DC146260CF2E (void);
+// 0x00000056 System.Void DelaunatorSharp.Delaunator/<>c::.ctor()
+extern void U3CU3Ec__ctor_mC88F0F519A6AF9626466E77D93BAF6AFCF25DA72 (void);
+// 0x00000057 DelaunatorSharp.Edge DelaunatorSharp.Delaunator/<>c::<CreateHull>b__48_0(DelaunatorSharp.IPoint,DelaunatorSharp.IPoint)
+extern void U3CU3Ec_U3CCreateHullU3Eb__48_0_mAF2DA74628E109AB9BC23A385BFD6D91867A80E9 (void);
+// 0x00000058 System.Void DelaunatorSharp.Delaunator/<EdgesAroundPoint>d__56::.ctor(System.Int32)
+extern void U3CEdgesAroundPointU3Ed__56__ctor_m4AACF7EA6E0378BA9A6C07D0156E03DFBFE6DEFB (void);
+// 0x00000059 System.Void DelaunatorSharp.Delaunator/<EdgesAroundPoint>d__56::System.IDisposable.Dispose()
+extern void U3CEdgesAroundPointU3Ed__56_System_IDisposable_Dispose_mC282471E9E52A5458CD4072EEE2F061F22F2F877 (void);
+// 0x0000005A System.Boolean DelaunatorSharp.Delaunator/<EdgesAroundPoint>d__56::MoveNext()
+extern void U3CEdgesAroundPointU3Ed__56_MoveNext_m83A89D0EB74F619775840B49AB50A923E92B6B97 (void);
+// 0x0000005B System.Int32 DelaunatorSharp.Delaunator/<EdgesAroundPoint>d__56::System.Collections.Generic.IEnumerator<System.Int32>.get_Current()
+extern void U3CEdgesAroundPointU3Ed__56_System_Collections_Generic_IEnumeratorU3CSystem_Int32U3E_get_Current_mEE681A0A74A3FC82F5E26F2A7045CA217FD81766 (void);
+// 0x0000005C System.Void DelaunatorSharp.Delaunator/<EdgesAroundPoint>d__56::System.Collections.IEnumerator.Reset()
+extern void U3CEdgesAroundPointU3Ed__56_System_Collections_IEnumerator_Reset_m8E782F41C0282D21E28D16F035B396DF3E25C185 (void);
+// 0x0000005D System.Object DelaunatorSharp.Delaunator/<EdgesAroundPoint>d__56::System.Collections.IEnumerator.get_Current()
+extern void U3CEdgesAroundPointU3Ed__56_System_Collections_IEnumerator_get_Current_m82D8AADD3E14E8E4D344CDC7B8B37EAAB965788B (void);
+// 0x0000005E System.Collections.Generic.IEnumerator`1<System.Int32> DelaunatorSharp.Delaunator/<EdgesAroundPoint>d__56::System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator()
+extern void U3CEdgesAroundPointU3Ed__56_System_Collections_Generic_IEnumerableU3CSystem_Int32U3E_GetEnumerator_m0A5C521EB7AE0C3937A24D54245A3CC5C4EEEB4B (void);
+// 0x0000005F System.Collections.IEnumerator DelaunatorSharp.Delaunator/<EdgesAroundPoint>d__56::System.Collections.IEnumerable.GetEnumerator()
+extern void U3CEdgesAroundPointU3Ed__56_System_Collections_IEnumerable_GetEnumerator_m746EA1EADA26652EC2DA6CC7FD4D608DF57E172A (void);
+// 0x00000060 DelaunatorSharp.IPoint DelaunatorSharp.IEdge::get_P()
+// 0x00000061 DelaunatorSharp.IPoint DelaunatorSharp.IEdge::get_Q()
+// 0x00000062 System.Int32 DelaunatorSharp.IEdge::get_Index()
+// 0x00000063 System.Double DelaunatorSharp.IPoint::get_X()
+// 0x00000064 System.Void DelaunatorSharp.IPoint::set_X(System.Double)
+// 0x00000065 System.Double DelaunatorSharp.IPoint::get_Y()
+// 0x00000066 System.Void DelaunatorSharp.IPoint::set_Y(System.Double)
+// 0x00000067 System.Collections.Generic.IEnumerable`1<DelaunatorSharp.IPoint> DelaunatorSharp.ITriangle::get_Points()
+// 0x00000068 System.Int32 DelaunatorSharp.ITriangle::get_Index()
+// 0x00000069 DelaunatorSharp.IPoint[] DelaunatorSharp.IVoronoiCell::get_Points()
+// 0x0000006A System.Int32 DelaunatorSharp.IVoronoiCell::get_Index()
+// 0x0000006B DelaunatorSharp.IPoint DelaunatorSharp.Edge::get_P()
+extern void Edge_get_P_m8B55CD81F1C8B8482F35D3EB60898618D972BEC7 (void);
+// 0x0000006C System.Void DelaunatorSharp.Edge::set_P(DelaunatorSharp.IPoint)
+extern void Edge_set_P_m91EFEB86DB0D1BFB991EC06AE380E13D01326ADA (void);
+// 0x0000006D DelaunatorSharp.IPoint DelaunatorSharp.Edge::get_Q()
+extern void Edge_get_Q_m4A220F0DDF50553EBF2E7B7D36AB1C70245F053D (void);
+// 0x0000006E System.Void DelaunatorSharp.Edge::set_Q(DelaunatorSharp.IPoint)
+extern void Edge_set_Q_mD3B4B92939B631F77E9DB87DFE5424FF098B88ED (void);
+// 0x0000006F System.Int32 DelaunatorSharp.Edge::get_Index()
+extern void Edge_get_Index_mEC9169E7DAF0AF7BAF75ED63CAF15494248BE4FC (void);
+// 0x00000070 System.Void DelaunatorSharp.Edge::set_Index(System.Int32)
+extern void Edge_set_Index_mB6B097187EC5E1F32734DD0175C6C8D2C8DDE1A9 (void);
+// 0x00000071 System.Void DelaunatorSharp.Edge::.ctor(System.Int32,DelaunatorSharp.IPoint,DelaunatorSharp.IPoint)
+extern void Edge__ctor_m975932983BBB1907570B6A66C7AA6A8A24E387AC (void);
+// 0x00000072 System.Double DelaunatorSharp.Point::get_X()
+extern void Point_get_X_mDDB886EAAB3F1A28EC57ACCA7D02AFDB10349CFD (void);
+// 0x00000073 System.Void DelaunatorSharp.Point::set_X(System.Double)
+extern void Point_set_X_m848A6776BA441F786FDCDB1B970E2E53B1C771B1 (void);
+// 0x00000074 System.Double DelaunatorSharp.Point::get_Y()
+extern void Point_get_Y_m5809665139480FF9DCC41149881DCE7FC1EB5FF1 (void);
+// 0x00000075 System.Void DelaunatorSharp.Point::set_Y(System.Double)
+extern void Point_set_Y_mA39B459C49444112EBC349A78E94206248E55B72 (void);
+// 0x00000076 System.Void DelaunatorSharp.Point::.ctor(System.Double,System.Double)
+extern void Point__ctor_m0151AFCF6B4827ADC87B501EA761A56FF86C0B76 (void);
+// 0x00000077 System.String DelaunatorSharp.Point::ToString()
+extern void Point_ToString_m96D2D4F18CE5D4546714A63AE286F3929936B7B6 (void);
+// 0x00000078 System.Int32 DelaunatorSharp.Triangle::get_Index()
+extern void Triangle_get_Index_m94325F514440ABDCAB63A24E3E9B378BD9B4F9E6 (void);
+// 0x00000079 System.Void DelaunatorSharp.Triangle::set_Index(System.Int32)
+extern void Triangle_set_Index_mAC0132A0B604644F1055C8D144EAB8C989C1133F (void);
+// 0x0000007A System.Collections.Generic.IEnumerable`1<DelaunatorSharp.IPoint> DelaunatorSharp.Triangle::get_Points()
+extern void Triangle_get_Points_mB5140292BFE569EF58471B1E18FAC3FAC3669A15 (void);
+// 0x0000007B System.Void DelaunatorSharp.Triangle::set_Points(System.Collections.Generic.IEnumerable`1<DelaunatorSharp.IPoint>)
+extern void Triangle_set_Points_mDD09568524A2AE8529E6B476649AED5EFC3AC15C (void);
+// 0x0000007C System.Void DelaunatorSharp.Triangle::.ctor(System.Int32,System.Collections.Generic.IEnumerable`1<DelaunatorSharp.IPoint>)
+extern void Triangle__ctor_m3ECE47C7EA1B4A02E98A30BA0A15DE5B0A703CAF (void);
+// 0x0000007D DelaunatorSharp.IPoint[] DelaunatorSharp.VoronoiCell::get_Points()
+extern void VoronoiCell_get_Points_m09BFC20B460394BA00894F84D9B1A0ABACD7FF36 (void);
+// 0x0000007E System.Void DelaunatorSharp.VoronoiCell::set_Points(DelaunatorSharp.IPoint[])
+extern void VoronoiCell_set_Points_mF812B0B22F1E39E740E5E72E9187B61C61183A63 (void);
+// 0x0000007F System.Int32 DelaunatorSharp.VoronoiCell::get_Index()
+extern void VoronoiCell_get_Index_mAD11A20681B0602B05DACE19DEA78DAEC89CD554 (void);
+// 0x00000080 System.Void DelaunatorSharp.VoronoiCell::set_Index(System.Int32)
+extern void VoronoiCell_set_Index_m1BCBF2629F4683BBC16A1D467339912D5781B2F9 (void);
+// 0x00000081 System.Void DelaunatorSharp.VoronoiCell::.ctor(System.Int32,DelaunatorSharp.IPoint[])
+extern void VoronoiCell__ctor_mD9D1E1D86014409A4FD2A43159C6944011506D98 (void);
+static Il2CppMethodPointer s_methodPointers[129] = 
+{
+	Delaunator_get_Triangles_m4CA754173165A8C8C4760D41B83C74B891B9A0F2,
+	Delaunator_set_Triangles_m33C3DCC42040926C1EE0EE5B251D3B4CADF6C829,
+	Delaunator_get_Halfedges_m6289A99F3A21314B595991433709D7A26A625EBA,
+	Delaunator_set_Halfedges_mDE49756AF31AF97639F5BBCAF5D41D0ABF21C106,
+	Delaunator_get_Points_mD95ECBBE610FAAE042FCFA17F513052D02FAAA6F,
+	Delaunator_set_Points_m89C12BFC161F2B510D558CAA8EF7C855F9F51BEA,
+	Delaunator__ctor_mAB3F9C0ED795BC13B988D648B2519687DBE149A9,
+	Delaunator_Legalize_m5A2460E994D257F20B4E77569B29E0F6972C6D33,
+	Delaunator_InCircle_m5BB3CB188074C17C2D3F016CA181399A717CD20D,
+	Delaunator_AddTriangle_m436BD4CBB817A01CB1C64FB97DC780339220544C,
+	Delaunator_Link_mBD7D62488EC64418BCFD203D6ACDBF7FCE3DBC28,
+	Delaunator_HashKey_mEBDDF0299D5945C5148C4F0FD8E14D1ABE1A0F3E,
+	Delaunator_PseudoAngle_m83C7CA948258D72894335DAD245342E6F2D23BC5,
+	Delaunator_Quicksort_m04CB718C7415BCCC6694F8F4F3BD61DAA1A790A6,
+	Delaunator_Swap_m285DB21143FDA59B1DFA831EB941479ABE678345,
+	Delaunator_Orient_mA30C286DC300722E3BE6BB55D2752DDE9ABB862B,
+	Delaunator_Circumradius_m9FF9AC4625A66D6AB81447555774373968126E94,
+	Delaunator_Circumcenter_mCDFA9284F06884B164AEE8A1C0CD9A5DF63FA63B,
+	Delaunator_Dist_mC590D12EC7CC526440E482F92CB4FBBD48B4D162,
+	Delaunator_GetTriangles_mB1343816D83871105291B4E9639CE90CBB598346,
+	Delaunator_GetEdges_m04C12ADC8F163552E7FAC122417631E04BDCCFD0,
+	Delaunator_GetVoronoiEdges_mFE2E9333BD3337BDFA22FA49D5595DA186C8DDA2,
+	Delaunator_GetVoronoiCells_m6A56ED874E2FB08FA4D962E549BB4D8B61D88191,
+	Delaunator_GetHullEdges_mAD9A209BA3F2D2495E180257C1CDE73870D2D06A,
+	Delaunator_GetHullPoints_m019039CCF95D097CF0A1042CC7A9635B1D63157A,
+	Delaunator_GetTrianglePoints_mF5F8BB8870C15495CE015C76D24120661B89747C,
+	Delaunator_GetRellaxedPoints_m4A50778E513DA7A423CC37650261DFB280857292,
+	Delaunator_GetEdgesOfTriangle_m8B0BFB40FEBE8452A7BD87064CDA52763A6B4777,
+	Delaunator_CreateHull_m62E2EA62C7EA4576911346A3B414F2BBFFB5FF66,
+	Delaunator_GetTriangleCenter_mE650C8F8BB6B19D879AB926B2459406240257944,
+	Delaunator_GetCircumcenter_mD62B3A4DDA63CA309F2BA43158B13C796C7A17ED,
+	Delaunator_GetCentroid_mD0A338298FE18EE564C240AF2436C5B6E2742380,
+	Delaunator_ForEachTriangle_m311CDF6F5C750309FAA4713D1F65CABCD596A540,
+	Delaunator_ForEachTriangleEdge_mE8863151D38036DA8474D1593357006E332CADD7,
+	Delaunator_ForEachVoronoiEdge_m102973582583BD874B7ADE7CAD54BAF0EA77E34E,
+	Delaunator_ForEachVoronoiCell_m7BE874A79CEE4715157826BC34CF993CA2648810,
+	Delaunator_EdgesAroundPoint_mE71DEEA18CAE469D5A5F05186A5D217C281AA6EB,
+	Delaunator_PointsOfTriangle_mEE9B10D4DB9178544FDF13312EDA8951E97359D2,
+	Delaunator_TrianglesAdjacentToTriangle_m9C9E84CC9CAE66BE4EA8FC8BB8F34820DB03CDC5,
+	Delaunator_NextHalfedge_mBD37F1877DD03E0269C88B9C42EA1102AE781EF6,
+	Delaunator_PreviousHalfedge_mE3B868FB30E838F69018C10640B1251BC7071CF2,
+	Delaunator_EdgesOfTriangle_m900BD0842F9FCACD8A3E88ED522B6B8F3D0F0C30,
+	Delaunator_TriangleOfEdge_mD3E40FEFF6E015F34BD268C3F643BFAFDFB32361,
+	Delaunator_U3CGetVoronoiCellsU3Eb__42_1_m3F7551B04C2256D3CCE8FEB5F0A44E22805C3963,
+	Delaunator_U3CGetVoronoiCellsU3Eb__42_2_mCFD9652332AAEACC91B36FCEB16732007ED40C9E,
+	Delaunator_U3CGetHullPointsU3Eb__44_0_mF1EEEFDDA7087E92435D95DD798CF3A2B2D0BDC3,
+	Delaunator_U3CGetTrianglePointsU3Eb__45_0_mA79EA1054BD54202B3F6A599B541B7EC354ACC98,
+	Delaunator_U3CGetRellaxedPointsU3Eb__46_0_m283676167C6207FC2C0108C4873750E7B95CD6C5,
+	Delaunator_U3CGetEdgesOfTriangleU3Eb__47_0_m41860034D5BC90CF847A063E8F31001BEE21B1E5,
+	Delaunator_U3CPointsOfTriangleU3Eb__57_0_m737F162FF74FA4EBF240B085469FBDE94FF54FC1,
+	U3CGetTrianglesU3Ed__39__ctor_mBF4147217F80D41F18ED66A93D9F14BBFBCE3A4B,
+	U3CGetTrianglesU3Ed__39_System_IDisposable_Dispose_m27C4D6CF2BD5273BACF123E56BF5204705C73ED6,
+	U3CGetTrianglesU3Ed__39_MoveNext_m71D6E25E7EED4C87889120308B0AA7FCFE0CD1F5,
+	U3CGetTrianglesU3Ed__39_System_Collections_Generic_IEnumeratorU3CDelaunatorSharp_ITriangleU3E_get_Current_mCED7710354CDCBA0993F93CC7A524A0F3B741A9C,
+	U3CGetTrianglesU3Ed__39_System_Collections_IEnumerator_Reset_m8017B79BC26E6239774F53BAE5138237C020D288,
+	U3CGetTrianglesU3Ed__39_System_Collections_IEnumerator_get_Current_mCFE1A0FDA3944A3351B13DA6B13964E2C799F09D,
+	U3CGetTrianglesU3Ed__39_System_Collections_Generic_IEnumerableU3CDelaunatorSharp_ITriangleU3E_GetEnumerator_m31338383DF5D2247DA5CBD80EB22AD7C703BA105,
+	U3CGetTrianglesU3Ed__39_System_Collections_IEnumerable_GetEnumerator_m35F529601EE1347DF8A0EE97E90A28257215C133,
+	U3CGetEdgesU3Ed__40__ctor_mE7104A9B0B1DBBE6B5FEBDA4A60B384EE16A9DB7,
+	U3CGetEdgesU3Ed__40_System_IDisposable_Dispose_m07CCAD133CE7B72747E6EF466258347D17785B20,
+	U3CGetEdgesU3Ed__40_MoveNext_m0E9C8FC837D770DC62B7E2646ECF53F24FF05351,
+	U3CGetEdgesU3Ed__40_System_Collections_Generic_IEnumeratorU3CDelaunatorSharp_IEdgeU3E_get_Current_m280FFD2783B89D6691EBE4333F71B59355D9AD21,
+	U3CGetEdgesU3Ed__40_System_Collections_IEnumerator_Reset_mBAB8A6EFDFA61F197C9BBE0F185348CDE069B227,
+	U3CGetEdgesU3Ed__40_System_Collections_IEnumerator_get_Current_mF2E059BD66CB90FA2E9C89C217708C525853FC37,
+	U3CGetEdgesU3Ed__40_System_Collections_Generic_IEnumerableU3CDelaunatorSharp_IEdgeU3E_GetEnumerator_mEA4E86DD324D5ACE3A8C17098568DAF78A2415EA,
+	U3CGetEdgesU3Ed__40_System_Collections_IEnumerable_GetEnumerator_mB907D9251B48AD91934341EC6C116F9D076EDA74,
+	U3CGetVoronoiEdgesU3Ed__41__ctor_m7D3BAFDE4DA94DCA512F5E70D73A5A6FEE7CCFB9,
+	U3CGetVoronoiEdgesU3Ed__41_System_IDisposable_Dispose_m18C942CAC351CE2D0BDF16803DC60374C60E682C,
+	U3CGetVoronoiEdgesU3Ed__41_MoveNext_mFD69E4B1BDFE12A2B595F2144B41A8CB062A6CAD,
+	U3CGetVoronoiEdgesU3Ed__41_System_Collections_Generic_IEnumeratorU3CDelaunatorSharp_IEdgeU3E_get_Current_m1A2417E26E16E4BF2056AB2DD0BC8167992B0D7F,
+	U3CGetVoronoiEdgesU3Ed__41_System_Collections_IEnumerator_Reset_m542E87FCFEF7E1FECF3FF9EAC539AD52ED92E868,
+	U3CGetVoronoiEdgesU3Ed__41_System_Collections_IEnumerator_get_Current_m748F8FAEBF3FAB3719E075FE30E8C461EDE5FEE4,
+	U3CGetVoronoiEdgesU3Ed__41_System_Collections_Generic_IEnumerableU3CDelaunatorSharp_IEdgeU3E_GetEnumerator_m7EA2DA6958013408BCD7BC9768AE78204063FEDD,
+	U3CGetVoronoiEdgesU3Ed__41_System_Collections_IEnumerable_GetEnumerator_mF3FF1CA6AFEED5EA8F89683CB34D187A77A45C58,
+	U3CU3Ec__DisplayClass42_0__ctor_mC341F25F99F81A82F97A4287E0B43CBBFAE4A65A,
+	U3CU3Ec__DisplayClass42_0_U3CGetVoronoiCellsU3Eb__0_mAA3A7A1B6939A5DF40DBAE08AFDFAA677437295F,
+	U3CGetVoronoiCellsU3Ed__42__ctor_m60EF37CF664C05C6DF5E8B7E69E5485F1B21AED7,
+	U3CGetVoronoiCellsU3Ed__42_System_IDisposable_Dispose_m302BB4E33769E4B0E2792284A2978A40B07694B5,
+	U3CGetVoronoiCellsU3Ed__42_MoveNext_m086AAF161EEE85FA6B1C30809C2C447CCB6694E7,
+	U3CGetVoronoiCellsU3Ed__42_System_Collections_Generic_IEnumeratorU3CDelaunatorSharp_IVoronoiCellU3E_get_Current_mFF0989ECD4491DE5929EAD64C2851A5CCC21A717,
+	U3CGetVoronoiCellsU3Ed__42_System_Collections_IEnumerator_Reset_m5109CD3A675A2EE9428D527A7BF492D1D4E15A3B,
+	U3CGetVoronoiCellsU3Ed__42_System_Collections_IEnumerator_get_Current_m6E238CEC8055D616B0545A9CCCD5F112CACFF532,
+	U3CGetVoronoiCellsU3Ed__42_System_Collections_Generic_IEnumerableU3CDelaunatorSharp_IVoronoiCellU3E_GetEnumerator_mB673F163AE6A1557D1A38B1C850E4E3684113D04,
+	U3CGetVoronoiCellsU3Ed__42_System_Collections_IEnumerable_GetEnumerator_m3B6DC7C3BC20D23FACF1F5377A790713BC40ED2D,
+	U3CU3Ec__cctor_m1F697C215EA4BA26721B1D2EAF53DC146260CF2E,
+	U3CU3Ec__ctor_mC88F0F519A6AF9626466E77D93BAF6AFCF25DA72,
+	U3CU3Ec_U3CCreateHullU3Eb__48_0_mAF2DA74628E109AB9BC23A385BFD6D91867A80E9,
+	U3CEdgesAroundPointU3Ed__56__ctor_m4AACF7EA6E0378BA9A6C07D0156E03DFBFE6DEFB,
+	U3CEdgesAroundPointU3Ed__56_System_IDisposable_Dispose_mC282471E9E52A5458CD4072EEE2F061F22F2F877,
+	U3CEdgesAroundPointU3Ed__56_MoveNext_m83A89D0EB74F619775840B49AB50A923E92B6B97,
+	U3CEdgesAroundPointU3Ed__56_System_Collections_Generic_IEnumeratorU3CSystem_Int32U3E_get_Current_mEE681A0A74A3FC82F5E26F2A7045CA217FD81766,
+	U3CEdgesAroundPointU3Ed__56_System_Collections_IEnumerator_Reset_m8E782F41C0282D21E28D16F035B396DF3E25C185,
+	U3CEdgesAroundPointU3Ed__56_System_Collections_IEnumerator_get_Current_m82D8AADD3E14E8E4D344CDC7B8B37EAAB965788B,
+	U3CEdgesAroundPointU3Ed__56_System_Collections_Generic_IEnumerableU3CSystem_Int32U3E_GetEnumerator_m0A5C521EB7AE0C3937A24D54245A3CC5C4EEEB4B,
+	U3CEdgesAroundPointU3Ed__56_System_Collections_IEnumerable_GetEnumerator_m746EA1EADA26652EC2DA6CC7FD4D608DF57E172A,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	Edge_get_P_m8B55CD81F1C8B8482F35D3EB60898618D972BEC7,
+	Edge_set_P_m91EFEB86DB0D1BFB991EC06AE380E13D01326ADA,
+	Edge_get_Q_m4A220F0DDF50553EBF2E7B7D36AB1C70245F053D,
+	Edge_set_Q_mD3B4B92939B631F77E9DB87DFE5424FF098B88ED,
+	Edge_get_Index_mEC9169E7DAF0AF7BAF75ED63CAF15494248BE4FC,
+	Edge_set_Index_mB6B097187EC5E1F32734DD0175C6C8D2C8DDE1A9,
+	Edge__ctor_m975932983BBB1907570B6A66C7AA6A8A24E387AC,
+	Point_get_X_mDDB886EAAB3F1A28EC57ACCA7D02AFDB10349CFD,
+	Point_set_X_m848A6776BA441F786FDCDB1B970E2E53B1C771B1,
+	Point_get_Y_m5809665139480FF9DCC41149881DCE7FC1EB5FF1,
+	Point_set_Y_mA39B459C49444112EBC349A78E94206248E55B72,
+	Point__ctor_m0151AFCF6B4827ADC87B501EA761A56FF86C0B76,
+	Point_ToString_m96D2D4F18CE5D4546714A63AE286F3929936B7B6,
+	Triangle_get_Index_m94325F514440ABDCAB63A24E3E9B378BD9B4F9E6,
+	Triangle_set_Index_mAC0132A0B604644F1055C8D144EAB8C989C1133F,
+	Triangle_get_Points_mB5140292BFE569EF58471B1E18FAC3FAC3669A15,
+	Triangle_set_Points_mDD09568524A2AE8529E6B476649AED5EFC3AC15C,
+	Triangle__ctor_m3ECE47C7EA1B4A02E98A30BA0A15DE5B0A703CAF,
+	VoronoiCell_get_Points_m09BFC20B460394BA00894F84D9B1A0ABACD7FF36,
+	VoronoiCell_set_Points_mF812B0B22F1E39E740E5E72E9187B61C61183A63,
+	VoronoiCell_get_Index_mAD11A20681B0602B05DACE19DEA78DAEC89CD554,
+	VoronoiCell_set_Index_m1BCBF2629F4683BBC16A1D467339912D5781B2F9,
+	VoronoiCell__ctor_mD9D1E1D86014409A4FD2A43159C6944011506D98,
+};
+extern void Edge_get_P_m8B55CD81F1C8B8482F35D3EB60898618D972BEC7_AdjustorThunk (void);
+extern void Edge_set_P_m91EFEB86DB0D1BFB991EC06AE380E13D01326ADA_AdjustorThunk (void);
+extern void Edge_get_Q_m4A220F0DDF50553EBF2E7B7D36AB1C70245F053D_AdjustorThunk (void);
+extern void Edge_set_Q_mD3B4B92939B631F77E9DB87DFE5424FF098B88ED_AdjustorThunk (void);
+extern void Edge_get_Index_mEC9169E7DAF0AF7BAF75ED63CAF15494248BE4FC_AdjustorThunk (void);
+extern void Edge_set_Index_mB6B097187EC5E1F32734DD0175C6C8D2C8DDE1A9_AdjustorThunk (void);
+extern void Edge__ctor_m975932983BBB1907570B6A66C7AA6A8A24E387AC_AdjustorThunk (void);
+extern void Point_get_X_mDDB886EAAB3F1A28EC57ACCA7D02AFDB10349CFD_AdjustorThunk (void);
+extern void Point_set_X_m848A6776BA441F786FDCDB1B970E2E53B1C771B1_AdjustorThunk (void);
+extern void Point_get_Y_m5809665139480FF9DCC41149881DCE7FC1EB5FF1_AdjustorThunk (void);
+extern void Point_set_Y_mA39B459C49444112EBC349A78E94206248E55B72_AdjustorThunk (void);
+extern void Point__ctor_m0151AFCF6B4827ADC87B501EA761A56FF86C0B76_AdjustorThunk (void);
+extern void Point_ToString_m96D2D4F18CE5D4546714A63AE286F3929936B7B6_AdjustorThunk (void);
+extern void Triangle_get_Index_m94325F514440ABDCAB63A24E3E9B378BD9B4F9E6_AdjustorThunk (void);
+extern void Triangle_set_Index_mAC0132A0B604644F1055C8D144EAB8C989C1133F_AdjustorThunk (void);
+extern void Triangle_get_Points_mB5140292BFE569EF58471B1E18FAC3FAC3669A15_AdjustorThunk (void);
+extern void Triangle_set_Points_mDD09568524A2AE8529E6B476649AED5EFC3AC15C_AdjustorThunk (void);
+extern void Triangle__ctor_m3ECE47C7EA1B4A02E98A30BA0A15DE5B0A703CAF_AdjustorThunk (void);
+extern void VoronoiCell_get_Points_m09BFC20B460394BA00894F84D9B1A0ABACD7FF36_AdjustorThunk (void);
+extern void VoronoiCell_set_Points_mF812B0B22F1E39E740E5E72E9187B61C61183A63_AdjustorThunk (void);
+extern void VoronoiCell_get_Index_mAD11A20681B0602B05DACE19DEA78DAEC89CD554_AdjustorThunk (void);
+extern void VoronoiCell_set_Index_m1BCBF2629F4683BBC16A1D467339912D5781B2F9_AdjustorThunk (void);
+extern void VoronoiCell__ctor_mD9D1E1D86014409A4FD2A43159C6944011506D98_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[23] = 
+{
+	{ 0x0600006B, Edge_get_P_m8B55CD81F1C8B8482F35D3EB60898618D972BEC7_AdjustorThunk },
+	{ 0x0600006C, Edge_set_P_m91EFEB86DB0D1BFB991EC06AE380E13D01326ADA_AdjustorThunk },
+	{ 0x0600006D, Edge_get_Q_m4A220F0DDF50553EBF2E7B7D36AB1C70245F053D_AdjustorThunk },
+	{ 0x0600006E, Edge_set_Q_mD3B4B92939B631F77E9DB87DFE5424FF098B88ED_AdjustorThunk },
+	{ 0x0600006F, Edge_get_Index_mEC9169E7DAF0AF7BAF75ED63CAF15494248BE4FC_AdjustorThunk },
+	{ 0x06000070, Edge_set_Index_mB6B097187EC5E1F32734DD0175C6C8D2C8DDE1A9_AdjustorThunk },
+	{ 0x06000071, Edge__ctor_m975932983BBB1907570B6A66C7AA6A8A24E387AC_AdjustorThunk },
+	{ 0x06000072, Point_get_X_mDDB886EAAB3F1A28EC57ACCA7D02AFDB10349CFD_AdjustorThunk },
+	{ 0x06000073, Point_set_X_m848A6776BA441F786FDCDB1B970E2E53B1C771B1_AdjustorThunk },
+	{ 0x06000074, Point_get_Y_m5809665139480FF9DCC41149881DCE7FC1EB5FF1_AdjustorThunk },
+	{ 0x06000075, Point_set_Y_mA39B459C49444112EBC349A78E94206248E55B72_AdjustorThunk },
+	{ 0x06000076, Point__ctor_m0151AFCF6B4827ADC87B501EA761A56FF86C0B76_AdjustorThunk },
+	{ 0x06000077, Point_ToString_m96D2D4F18CE5D4546714A63AE286F3929936B7B6_AdjustorThunk },
+	{ 0x06000078, Triangle_get_Index_m94325F514440ABDCAB63A24E3E9B378BD9B4F9E6_AdjustorThunk },
+	{ 0x06000079, Triangle_set_Index_mAC0132A0B604644F1055C8D144EAB8C989C1133F_AdjustorThunk },
+	{ 0x0600007A, Triangle_get_Points_mB5140292BFE569EF58471B1E18FAC3FAC3669A15_AdjustorThunk },
+	{ 0x0600007B, Triangle_set_Points_mDD09568524A2AE8529E6B476649AED5EFC3AC15C_AdjustorThunk },
+	{ 0x0600007C, Triangle__ctor_m3ECE47C7EA1B4A02E98A30BA0A15DE5B0A703CAF_AdjustorThunk },
+	{ 0x0600007D, VoronoiCell_get_Points_m09BFC20B460394BA00894F84D9B1A0ABACD7FF36_AdjustorThunk },
+	{ 0x0600007E, VoronoiCell_set_Points_mF812B0B22F1E39E740E5E72E9187B61C61183A63_AdjustorThunk },
+	{ 0x0600007F, VoronoiCell_get_Index_mAD11A20681B0602B05DACE19DEA78DAEC89CD554_AdjustorThunk },
+	{ 0x06000080, VoronoiCell_set_Index_m1BCBF2629F4683BBC16A1D467339912D5781B2F9_AdjustorThunk },
+	{ 0x06000081, VoronoiCell__ctor_mD9D1E1D86014409A4FD2A43159C6944011506D98_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[129] = 
+{
+	9156,
+	7374,
+	9156,
+	7374,
+	9156,
+	7374,
+	7374,
+	6135,
+	99,
+	297,
+	3710,
+	2794,
+	2703,
+	1542,
+	2117,
+	268,
+	293,
+	326,
+	884,
+	9156,
+	9156,
+	9156,
+	9156,
+	9156,
+	9156,
+	6512,
+	9156,
+	6512,
+	6517,
+	6512,
+	1866,
+	6517,
+	7374,
+	7374,
+	7374,
+	7374,
+	6512,
+	6512,
+	6512,
+	6135,
+	6135,
+	6512,
+	6135,
+	6135,
+	6512,
+	6512,
+	6512,
+	6517,
+	6512,
+	6135,
+	7347,
+	9314,
+	9040,
+	9156,
+	9314,
+	9156,
+	9156,
+	9156,
+	7347,
+	9314,
+	9040,
+	9156,
+	9314,
+	9156,
+	9156,
+	9156,
+	7347,
+	9314,
+	9040,
+	9156,
+	9314,
+	9156,
+	9156,
+	9156,
+	9314,
+	5216,
+	7347,
+	9314,
+	9040,
+	9156,
+	9314,
+	9156,
+	9156,
+	9156,
+	16406,
+	9314,
+	2706,
+	7347,
+	9314,
+	9040,
+	9128,
+	9314,
+	9156,
+	9156,
+	9156,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	9156,
+	7374,
+	9156,
+	7374,
+	9128,
+	7347,
+	2060,
+	9078,
+	7293,
+	9078,
+	7293,
+	3380,
+	9156,
+	9128,
+	7347,
+	9156,
+	7374,
+	3734,
+	9156,
+	7374,
+	9128,
+	7347,
+	3734,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_DelaunatorSharp_CodeGenModule;
+const Il2CppCodeGenModule g_DelaunatorSharp_CodeGenModule = 
+{
+	"DelaunatorSharp.dll",
+	129,
+	s_methodPointers,
+	23,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
