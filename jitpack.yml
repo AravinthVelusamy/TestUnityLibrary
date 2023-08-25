@@ -1,0 +1,9 @@
+# configuration file for building snapshots and releases with jitpack.io
+jdk:
+  - openjdk17
+before_install:
+  - ./scripts/prepareJitpackEnvironment.sh
+install:
+  - echo yes | sdkmanager "ndk;21.3.6528147"
+  - FILE="-Dfile=unityLibrary.aar"
+  - mvn install:install-file $FILE -DgroupId=com.github.AravinthVelusamy -DartifactId=TestUnityLibrary -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
